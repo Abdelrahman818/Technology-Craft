@@ -301,9 +301,9 @@ export default function ITPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-28 relative overflow-hidden">
-        <div className="absolute inset-0 bg-blue-600/5" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[720px] h-[720px] bg-blue-600/20 rounded-full blur-[100px] pointer-events-none" />
+      <section className="py-28 relative overflow-hidden border-y" style={{ backgroundColor: "var(--background-alt)", borderColor: "var(--border)" }}>
+        <div className="absolute inset-0" style={{ backgroundColor: "color-mix(in srgb, var(--surface) 34%, transparent)" }} />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[720px] h-[720px] rounded-full blur-[100px] pointer-events-none" style={{ backgroundColor: "color-mix(in srgb, var(--accent-cyan) 5%, transparent)" }} />
         <div className="container mx-auto px-6 md:px-12 relative z-10 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-5xl md:text-7xl font-extrabold tracking-tighter mb-8 text-white">Ready to improve your search rankings?</h2>

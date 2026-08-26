@@ -170,11 +170,11 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="py-28 relative overflow-hidden">
-        <div className="absolute inset-0 bg-blue-600/5" />
+      <section className="py-28 relative overflow-hidden border-y" style={{ backgroundColor: "var(--background-alt)", borderColor: "var(--border)" }}>
+        <div className="absolute inset-0" style={{ backgroundColor: "color-mix(in srgb, var(--surface) 34%, transparent)" }} />
         <div
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[760px] h-[760px] bg-blue-600/20 rounded-full pointer-events-none"
-          style={{ filter: "blur(100px)" }}
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[760px] h-[760px] rounded-full pointer-events-none"
+          style={{ backgroundColor: "color-mix(in srgb, var(--accent-cyan) 5%, transparent)", filter: "blur(100px)" }}
         />
         <div className="container mx-auto px-6 md:px-12 relative z-10 text-center">
           <div className="max-w-3xl mx-auto reveal">
